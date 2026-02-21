@@ -7,10 +7,11 @@ from nonebot.adapters.onebot.v11 import GroupMessageEvent, GroupUploadNoticeEven
 
 IMAGE_DIR = Path("/data/image_collection")
 FILE_DIR = Path("/data/file")
+#格式： 群号码: "群名"
 TARGET_GROUPS = {
-    1082969417: "Test",
-    1080876483: "解构原典-三号",
-    578992043:  "解构原典-二号",
+    12345678: "相思相爱一家人",
+    *********: "群名",
+    *******:  "群名",
 }
 
 # 保存图片
